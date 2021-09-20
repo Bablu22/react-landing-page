@@ -1,0 +1,8 @@
+.navbar-brand img{
+    width: 150px;
+}
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+    margin-right: 20px;
+}

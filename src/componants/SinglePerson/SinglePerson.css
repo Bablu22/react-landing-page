@@ -1,0 +1,21 @@
+.single-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+.single-person .desc{
+    width: 400px;
+}
+.single-person img{
+    width: 100%;
+}
+@media screen and (max-width:640px) {
+    .single-person{
+        flex-direction: column;
+        padding:20px;
+    }
+    .single-person .desc{
+        width: auto;
+    }
+}
